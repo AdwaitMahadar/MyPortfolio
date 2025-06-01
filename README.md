@@ -55,6 +55,8 @@ This project is open source — feel free to use parts of the code to learn or b
 If you're using the site's design with minimal changes, a credit to **Adwait Mahadar** would be appreciated.  
 Please do **not** present any of my actual portfolio projects as your own — these represent real work I’ve done.
 
+Inspired by [HamishMW's original portfolio](https://github.com/hamishmw/)
+
 ---
 
 ## ❓ FAQs
