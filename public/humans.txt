@@ -19,6 +19,7 @@ Photoshop
 Blender
 
 github.com/adwaitmahadar
+Inspiration from: github.com/hamishmw
 
 _______________________________________________________________________________
 
