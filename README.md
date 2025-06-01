@@ -78,4 +78,4 @@ Please do **not** present any of my actual portfolio projects as your own — th
 ## 👨‍💻 Maintained by
 
 **Adwait Mahadar**  
-[LinkedIn](https://www.linkedin.com/in/YOUR-USERNAME) • [GitHub](https://github.com/YOUR-USERNAME) • [Portfolio](https://your-deployed-site.com)
+[LinkedIn](https://www.linkedin.com/in/adwaitmahadar/) • [GitHub](https://github.com/adwaitmahadar) • [Portfolio](https://www.adwaitmahadar.tech/)
