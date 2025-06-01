@@ -1,56 +1,81 @@
+
 <p align="center">
   <img src="/public/favicon.svg" width="50" alt="Logo" />
 </p>
-<h1 align="center">Personal portfolio</h1>
+<h1 align="center">Personal Portfolio</h1>
 
-[![Site preview](/public/site-preview.png)](https://hamishw.com)
+[![Site preview](/public/site-preview.png)](https://your-deployed-site.com)
 
-My design portfolio to showcase a few projects. Built with [Remix](https://remix.run/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/). View the [live site](https://hamishw.com) or check out a live version of the [components storybook](https://storybook.hamishw.com).
+This is my personal portfolio to showcase selected projects. Built with [Remix](https://remix.run/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/).  
+➡️ [Live site](https://your-deployed-site.com)  
+➡️ [Storybook preview](https://your-storybook-link.com)
 
-## Install & run
+---
 
-Make sure you have nodejs `19.9.0` or higher and npm `9.6.3` or higher installed. Install dependencies with:
+## 🛠️ Install & Run
+
+Make sure you have Node.js `19.9.0` or higher and npm `9.6.3` or higher installed.
+
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-Once it's done start up a local server with:
+Start the local development server:
 
 ```bash
 npm run dev
 ```
 
-To view the components storybook:
+To view the components in Storybook:
 
 ```bash
 npm run dev:storybook
 ```
 
-## Deployment
+---
 
-I've set up the site using Cloudflare for hosting. Deploy the site to Cloudflare Pages:
+## 🚀 Deployment
+
+This site is set up to deploy using Cloudflare Pages.
+
+To deploy:
 
 ```bash
 npm run deploy
 ```
 
-## Permissions
+---
 
-I'm cool with anyone using the code or parts of the code for their own site, it is open source so people can learn from it and adapt it. However, I would encourage you to modify the theme and components it to make it your own. If you are using the site's design largely unmodified, I'd appreciate being credited as the designer of the website.
+## 📄 Permissions
 
-I do not give permission to present any of my projects as your own (this is being actively used as my portfolio site and these are my real projects I've worked on).
+This project is open source — feel free to use parts of the code to learn or build your own projects.
 
-## FAQs
+If you're using the site's design with minimal changes, a credit to **Adwait Mahadar** would be appreciated.  
+Please do **not** present any of my actual portfolio projects as your own — these represent real work I’ve done.
+
+---
+
+## ❓ FAQs
 
 <details>
-  <summary>How do I change the color on the <code>DisplacementSphere</code> (blobby rotating thing in the background).</summary>
-  
-  You'll need to edit the fragment shader. [Check out this issue for more details](https://github.com/HamishMW/portfolio/issues/19#issuecomment-870996615).
+  <summary>How do I change the color on the <code>DisplacementSphere</code> (the animated blobby background)?</summary>
+
+  You'll need to edit the fragment shader. You can tweak the color values inside the shader file that powers the sphere.
 </details>
 
 <details>
   <summary>How do I get the contact form to work?</summary>
-  
-  To get the contact form working create an AWS account and set up SES (Simple Email service). Then plug in your details into `.dev.vars.example` and rename it to `.dev.vars`. You'll also need to add these as enviroment variables in the Cloudflare dashboard for it to work in production. Or if you don't mind sending through gmail use [nodemailer](https://nodemailer.com/) instead.
+
+  Set up [AWS SES](https://aws.amazon.com/ses/) for sending emails, and configure the `.dev.vars` file with your credentials.  
+  Alternatively, you can use [nodemailer](https://nodemailer.com/) with a Gmail account.  
+  For production, remember to add these as environment variables in the Cloudflare dashboard.
 </details>
+
+---
+
+## 👨‍💻 Maintained by
+
+**Adwait Mahadar**  
+[LinkedIn](https://www.linkedin.com/in/YOUR-USERNAME) • [GitHub](https://github.com/YOUR-USERNAME) • [Portfolio](https://your-deployed-site.com)
